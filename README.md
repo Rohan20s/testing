@@ -9,3 +9,5 @@ i use piccasso library for showing image
 
 
 to install apk its inside app/build/output/apk/debug
+
+After installation ,on first time opening it shows nothing. you have to reopen the app 
