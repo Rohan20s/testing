@@ -6,3 +6,6 @@ then use tablayout in mainactivity and implement fragment.
 
 inside fragment i use recycleview to show data 
 i use piccasso library for showing image
+
+
+to install apk its inside app/build/output/apk/debug
