@@ -73,16 +73,16 @@ public class MainActivity extends AppCompatActivity {
 
         c.fetch();
 
-//        artcle a=new artcle();
-//        a.d_b=openOrCreateDatabase("atc.db", MODE_PRIVATE, null);
-//        a.createArticleTable();
-//        artcle.dbclass d=a.new dbclass();
-//        d.execute(a.url);
-//        a.fetch();
-        if(temp==0){
-            temp=1;
-            startActivity(new Intent(MainActivity.this,Article.class));
-        }
+       artcle a=new artcle();
+       a.d_b=openOrCreateDatabase("atc.db", MODE_PRIVATE, null);
+       a.createArticleTable();
+       artcle.dbclass d=a.new dbclass();
+       d.execute(a.url);
+       a.fetch();
+//         if(temp==0){
+//             temp=1;
+//             startActivity(new Intent(MainActivity.this,Article.class));
+//         }
 
         tabLayout=(TabLayout)findViewById(R.id.tabLayout);
         frameLayout=(FrameLayout)findViewById(R.id.frameLayout);
