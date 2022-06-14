@@ -45,7 +45,7 @@ public class ArticleFragment extends Fragment {
     }
 
     RecyclerView recyclerView;
-    static ArrayList<Atc> itemList=artcle.atc;
+    static ArrayList<Atc> itemList;
     Button next,prev;
     paginator p=new paginator();
     private int totalPages=paginator.TOTAL_NUM_ITEMS/paginator.ITEMS_PER_PAGE;
