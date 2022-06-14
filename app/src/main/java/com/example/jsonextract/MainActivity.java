@@ -79,10 +79,10 @@ public class MainActivity extends AppCompatActivity {
 //        artcle.dbclass d=a.new dbclass();
 //        d.execute(a.url);
 //        a.fetch();
-        if(temp==0){
-            temp=1;
-            startActivity(new Intent(MainActivity.this,Article.class));
-        }
+//         if(temp==0){
+//             temp=1;
+//             startActivity(new Intent(MainActivity.this,Article.class));
+//         }
 
         tabLayout=(TabLayout)findViewById(R.id.tabLayout);
         frameLayout=(FrameLayout)findViewById(R.id.frameLayout);
