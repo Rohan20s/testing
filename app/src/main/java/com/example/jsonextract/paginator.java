@@ -19,12 +19,12 @@ ArrayList<Atc> atc= artcle.atc;
 
          if(currentpage==LAST_PAGE&&ITEMS_REMAINING>0){
              for (int i=startItem;i<startItem+ITEMS_REMAINING;i++){
-                 art.add(Article.atc.get(i));
+                 art.add(atc.get(i));
              }
          }
          else{
              for(int i=startItem;i<startItem+numOfData;i++){
-                 art.add(Article.atc.get(i));
+                 art.add(atc.get(i));
              }
          }
 return  art;
