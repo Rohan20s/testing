@@ -13,7 +13,7 @@ public class paginator {
     public ArrayList<Atc> generate(int currentpage) {
          int startItem=currentpage*ITEMS_PER_PAGE+1;
          int numOfData=ITEMS_PER_PAGE;
-
+ArrayList<Atc> atc= artcle.atc;
          ArrayList<Atc> art = new ArrayList<Atc>();
          artcle a=new artcle();
 
